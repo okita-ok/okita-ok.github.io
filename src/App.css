@@ -14,25 +14,34 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffee;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
+  color: #800000;
+  font-family: "Helvetica Bold", Helvetica, Arial, sans-serif;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
+
+.wobbly-text-container {
+  font-size: 5em;
+  font-weight: 400;
+  font-family: "Darumadrop One", sans-serif;
+  color: #800000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wobbly-animation {
+  filter: url(#noise);
 }
