@@ -30,6 +30,12 @@
   color: #61dafb;
 }
 
+.username-color {
+  color: #117743;
+}
+
+/* stuff for the wobbly text */
+
 @import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
 
 .wobbly-text-container {

@@ -58,13 +58,15 @@ function App() {
           </div>
         </div>
         <p>
-          Eduardo Okita / okita-ok <br /> Full Stack Web Developer
+          <span className="username-color">Eduardo Okita</span> / okita-ok{" "}
+          <br /> Full Stack Web Developer
+          <br /> ☆*: .｡. Website in Construction! .｡.:*☆
         </p>
         <a href="">Portfolio</a>
         {/* <a aria-disabled="true">Shironeko Labs (Coming Soon!)</a> */}
         <a href="https://github.com/okita-ok">GitHub</a>
         <a href="https://www.linkedin.com/in/eduardo-okita/">LinkedIn</a>
-        <p>~ fighting for a funnier internet!! ~</p>
+        <p>~ internet's silliest soldier!! ~</p>
       </header>
     </div>
   );
